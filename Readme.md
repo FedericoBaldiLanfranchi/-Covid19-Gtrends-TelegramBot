@@ -3,11 +3,6 @@ Covid19 & Google Trends Telegram Bot
 Federico Baldi Lanfranchi
 March 22, 2005
 
-<style>
-body {
-text-align: justify}
-</style>
-
 # Introduction
 
 The goal of this project is to build and operate a basic (R)Telegram bot
@@ -63,9 +58,9 @@ Kingdom).
 
 While <code>updater$start\_polling()</code> is running, the Telegram bot
 is active. To access the bot, visit
-<a href="http://t.me/covid19_gtrends_bot">http://t.me/covid19\_gtrends\_bot</a>.
+<a href="https://t.me/Covid19Gtrendsbot">https://t.me/Covid19Gtrendsbot</a>.
 It might be necessary to copy and past the link in a browser window,
-since sometimes the wrong bot may be loaded on clicking the link.
+since sometimes the wrong bot may be loaded when clicking the link.
 
 </li>
 
