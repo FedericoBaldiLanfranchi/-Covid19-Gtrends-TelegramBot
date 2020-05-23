@@ -1,8 +1,7 @@
 ---
 title: "Covid19 & Google Trends Telegram Bot"
 author: Federico Baldi Lanfranchi
-contact: "federico.baldilanfranchi@student.unisg.ch"
-date: March 22, 2005
+date: March 22, 2020
 output: 
   github_document: 
     toc: true
@@ -32,14 +31,14 @@ At the time of writing, 172 countries are supported. R is picked as the language
 <li>While <code>updater$start_polling()</code> is running, the Telegram bot is active.  To access the bot, visit <a href="https://t.me/Covid19Gtrendsbot">https://t.me/Covid19Gtrendsbot</a>. It might be necessary to copy and past the link in a browser window, since sometimes the wrong bot may be loaded when clicking the link.</li>
 <li>The following commands may be issued to the bot via the Telegram chat:
 <ul>
-<li>/start - Initialise and activate the bot</li>
-<li>/countrylist - Output a list of supported countries (case sensitive), which can be passed as inline arguments to /stats and /tsplot</li>
-<li>/stats - [i.e. /stats United States] Given an argument country, output statistics on current and total cases, deaths and recovered patients</li>
-<li>/tsplot - [i.e. /tsplot United States] Given an argument country, plot total cases, deaths and recovered patients over time</li>
-<li>/sixplot - Plot dynamics in current cases against dynamics in Google search volume (top 6 countries by deaths)</li>
-<li>/sixgtcorr - Output correlation coefficients between log changes in current cases and log changes in Google search volume (top 6 countries by deaths)</li>
-<li>/gtcorrall -  Plot correlation coefficients between log changes in current cases and log changes in Google search volume (all countries)</li>
-<li>/sixforecasts - Does Google Trends data improve forecasting accuracy wrt relative changes in current cases on the next day? Provide summary statistics and forecasts (top 6 countries by deaths)</li>
+<li>```/start``` - Initialise and activate the bot</li>
+<li>```/countrylist``` - Output a list of supported countries (case sensitive), which can be passed as inline arguments to ```/stats``` and ```/tsplot```</li>
+<li>```/stats``` - [i.e. ```/stats United States```] Given an argument country, output statistics on current and total cases, deaths and recovered patients</li>
+<li>```/tsplot``` - [i.e. ```/tsplot United States```] Given an argument country, plot total cases, deaths and recovered patients over time</li>
+<li>```/sixplot``` - Plot dynamics in current cases against dynamics in Google search volume (top 6 countries by deaths)</li>
+<li>```/sixgtcorr``` - Output correlation coefficients between log changes in current cases and log changes in Google search volume (top 6 countries by deaths)</li>
+<li>```/gtcorrall``` -  Plot correlation coefficients between log changes in current cases and log changes in Google search volume (all countries)</li>
+<li>```/sixforecasts``` - Does Google Trends data improve forecasting accuracy wrt relative changes in current cases on the next day? Provide summary statistics and forecasts (top 6 countries by deaths)</li>
 </ul>
 </ol>
 

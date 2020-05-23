@@ -1,7 +1,7 @@
 Covid19 & Google Trends Telegram Bot
 ================
 Federico Baldi Lanfranchi
-March 22, 2005
+March 22, 2020
 
 # Introduction
 
@@ -72,41 +72,42 @@ The following commands may be issued to the bot via the Telegram chat:
 
 <li>
 
-/start - Initialise and activate the bot
+`/start` - Initialise and activate the bot
 
 </li>
 
 <li>
 
-/countrylist - Output a list of supported countries (case sensitive),
-which can be passed as inline arguments to /stats and /tsplot
+`/countrylist` - Output a list of supported countries (case sensitive),
+which can be passed as inline arguments to `/stats` and `/tsplot`
 
 </li>
 
 <li>
 
-/stats - \[i.e. /stats United States\] Given an argument country, output
-statistics on current and total cases, deaths and recovered patients
+`/stats` - \[i.e. `/stats United States`\] Given an argument country,
+output statistics on current and total cases, deaths and recovered
+patients
 
 </li>
 
 <li>
 
-/tsplot - \[i.e. /tsplot United States\] Given an argument country, plot
-total cases, deaths and recovered patients over time
+`/tsplot` - \[i.e. `/tsplot United States`\] Given an argument country,
+plot total cases, deaths and recovered patients over time
 
 </li>
 
 <li>
 
-/sixplot - Plot dynamics in current cases against dynamics in Google
+`/sixplot` - Plot dynamics in current cases against dynamics in Google
 search volume (top 6 countries by deaths)
 
 </li>
 
 <li>
 
-/sixgtcorr - Output correlation coefficients between log changes in
+`/sixgtcorr` - Output correlation coefficients between log changes in
 current cases and log changes in Google search volume (top 6 countries
 by deaths)
 
@@ -114,15 +115,15 @@ by deaths)
 
 <li>
 
-/gtcorrall - Plot correlation coefficients between log changes in
+`/gtcorrall` - Plot correlation coefficients between log changes in
 current cases and log changes in Google search volume (all countries)
 
 </li>
 
 <li>
 
-/sixforecasts - Does Google Trends data improve forecasting accuracy wrt
-relative changes in current cases on the next day? Provide summary
+`/sixforecasts` - Does Google Trends data improve forecasting accuracy
+wrt relative changes in current cases on the next day? Provide summary
 statistics and forecasts (top 6 countries by deaths)
 
 </li>
