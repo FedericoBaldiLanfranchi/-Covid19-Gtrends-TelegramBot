@@ -157,7 +157,7 @@ in-sample.
 
 <img src="Img/evidence_predictability.png" title="A caption" alt="A caption" width="75%" />
 
-## Aknowledgements
+## Acknowledgements
 
 The bot builds on Covid19 time series downloaded from the
 <a href="https://github.com/CSSEGISandData/COVID-19">COVID-19 Data

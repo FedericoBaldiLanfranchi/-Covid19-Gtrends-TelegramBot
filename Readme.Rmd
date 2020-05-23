@@ -64,7 +64,7 @@ Relative to the 6 countries above mentioned, a simple ARMA model seems to benefi
 knitr::include_graphics("Img/evidence_predictability.png")
 ```
 
-## Aknowledgements
+## Acknowledgements
 
 The bot builds on Covid19 time series downloaded from the <a href="https://github.com/CSSEGISandData/COVID-19">COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University</a>. This project was completed as part of the requirements for the "Skills: Programming with Advanced Computer Languages" class, held at the University of St. Gallen in Spring 2020.
 
