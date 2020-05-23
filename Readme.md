@@ -15,18 +15,18 @@ I also include log changes in Google Search Volume for Covid19 as a
 proxy for user concern towards the pandemic. In particular, I suggest
 such measure may yield marginal predictive power over changes in the
 number of infected patients. Google makes available indices of search
-volume for individual queries through its product Google Trends. The
-platform also mantains a number of “topics”, each tracking the aggregate
-search volume for a particular set of related keywords. For reference,
-the query string for the “Covid19 (Virus)” topic, in URL decoded format,
-is /m/01cpyy.
+volume for individual queries through its product Google Trends. Google
+also mantains a number of “topics”, each tracking the aggregate search
+volume for a particular set of related keywords. For reference, the
+query string for the “Covid19 (Virus)” topic, in URL decoded format, is
+/m/01cpyy.
 
 There is a prolific literature on Google Trends data aplications. Jun,
 Yoo and Choi (2018) offer a comprehensive review of research
-applications involving Google Trends data across various fields. This
-project draws inspiration from the work of Ginsberg et al. (2009). They
-show that monitoring Google queries for selected search terms can
-improve early detection of influenza-like epidemics.
+applications involving Google Trends data across various fields. The
+present project draws inspiration from the work of Ginsberg et al.
+(2009). They show that monitoring Google queries for selected search
+terms can improve early detection of influenza-like epidemics.
 
 At the time of writing, 172 countries are supported. R is picked as the
 language of choice in light of its support for data science applications
@@ -39,16 +39,16 @@ and the Telegram API.
 <li>
 
 Open the <code>covid19\_gtrends\_telegram.R</code> file and run it. It
-is worth mentioning that to collect Google Trends one must run
+is worth mentioning that to collect Google Trends data one must run
 individual queries for each country. Such queries must be spaced out to
 prevent Google from blocking them, which makes the process time
 consuming. Therefore the code file allows to either run the full
-download (30min ETA) or load a(n older) local copy of the data. This is
-controlled by the <code>source</code> parameter of the
+download (30min ETA) or to load a(n older) local copy of the data. This
+is controlled by the <code>source</code> parameter of the
 <code>fbl\_get\_search\_data</code> (<code>o</code> for online source,
 <code>l</code> for local source). As a default, local data is used for
 the entire set of countries, while online data is retrieved for the
-subset of 6 countries most affected in terms of deaths at time of
+subset of 6 countries most affected in terms of deaths at the time of
 writing (Italy, Brazil, United States, Spain, France, and United
 Kingdom).
 
