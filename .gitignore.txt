@@ -1,0 +1,2 @@
+*.Rmd
+*.DS_store
